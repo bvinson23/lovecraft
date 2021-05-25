@@ -1,12 +1,6 @@
 ﻿using System;
 
-namespace lovecraft
+void Lovecraft()
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+    string text = System.IO.File.ReadAllText(@"C:\Users\brand\workspace\csharp\lovecraft\story.txt");
 }
